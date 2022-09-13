@@ -1,0 +1,82 @@
+html {
+    min-height: 100%;
+}
+body {
+    background-image: linear-gradient(to bottom, #3399ff, #80bfff);
+    color: #001a33;
+    font-size: x-large;
+    text-align: left;
+    background-repeat: no-repeat;
+}
+header {
+    background-image: url(sunny2.webp);
+    background-repeat: no-repeat;
+    line-height: 300%;
+    text-align: center;
+}
+h1 {
+    color: #0d260d;
+    margin-bottom: 0%;
+    text-align: center;
+}
+nav {
+    float: right;
+    padding-bottom: 5em;
+    margin-top: 1em;
+    width: 160px;
+    background-color: #0073e6;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:link {
+    color: blue;
+}
+nav a:visited {
+    color: purple;
+}
+nav a:hover {
+    color: darkblue;
+    transition: color 2s linear;
+}
+main {
+    padding-left: 1em;
+}
+main ul {
+    list-style-type: circle;
+    display: inline-block;
+}
+#mowing {
+    float: right;
+}
+table {
+    background-color: #66b3ff;
+    color: #0d260d;;
+}
+table, th, td {
+    border: 1px solid;
+}
+form {
+    width: 500px;
+}
+label {
+    float: left;
+    clear: left;
+    display: block;
+    width: 350px;
+    padding-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+input {
+    display: block;
+    width: 350px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+input[type="submit"] {
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+}
